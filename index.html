@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,43 +19,96 @@
          <li>
                 <a href= "contact.html">Contatos</a>
         </li>
+        <li>
+            <a href="hobbies.html">Hobbies</a>
+        </li>
         </ul>
     </nav>
+    </div>
     <header>
         <div class = "center">
-            <img src="./image/imagem01.jpeg">
-             <h1>Karolinie Galvão</h1>
-            <h2>Desenvolvimento de sistemas</h2>
-        </div>
-       
+             <h1>Karolinie Arruda Galvão</h1>
+        </div>  
     </header>
     <main>
-        <section>
+   <!-- SEÇÃO SOBRE MIM -->
+        <section id="sobre">
             <h3>Sobre mim</h3>
-            <p>
-               Estudante do curso de Análise e Desenvolvimento de Sistemas. 
-               Estou em transição de carreira, da área da saúde para a tecologia. 
-               Após decidir inicar minha transição, realizei cursos como Administração de banco de dados, onde aprendi SQL, modelagem conceitual, lógica e física. Realizei o curso de Back End, 
-               onde tive contato com Java e, como projeto final, desenvolvi um programa de gerenciamento de estoque. Atualmente, faço curso de Front End, Python, Excel e Power BI
-            </p>    
+            <div class="conteudo-sobre">
+                <div class="texto">
+                    <p>Estudante do curso de Análise e Desenvolvimento de Sistemas. 
+                    Estou em transição de carreira, da área da saúde para a tecnologia. 
+                    Após decidir iniciar minha transição, realizei cursos como Administração de banco de dados, onde aprendi SQL, modelagem conceitual, lógica e física. Realizei o curso de Back End, 
+                    onde tive contato com Java e, como projeto final, desenvolvi um programa de gerenciamento de estoque. Atualmente, faço curso de Front End, Python, Excel e Power BI.
+                    </p>    
+                </div>
+                <img src="./image/imagem01.jpeg" alt="Foto de Karolinie">
+            </div>
         </section>
-        <section>
+
+        <!-- SEÇÃO HOBBIES -->
+        <section id="hobbies">
+            <h3>Meus hobbies</h3>
+
+            <!-- BLOCO 1: Hobbies em casa -->
+            <div class="hobby-bloco">
+                <div class="texto">
+                    <p>Sou uma pessoa muito caseira. Gosto de realizar atividades em casa como:</p>
+                    <ul>
+                        <li>Assistir séries</li>
+                        <li>Jogos de tabuleiro</li>
+                        <li>Ficar com minha cadelinha - CHICHI</li>
+                    </ul>
+                </div>
+
+                <div class="fotos-hobbies">
+                    <img src="./image/Serie.jpg" alt="Séries">
+                    <img src="./image/Imagem_Acao.png" alt="Jogos de tabuleiro">
+                    <img src="./image/chichi.jpg" alt="Cadelinha Chichi">
+                </div>
+            </div>
+
+            <!-- BLOCO 2: Hobbies em grupo -->
+            <div class="hobby-bloco">
+                <div class="texto">
+                    <p>Além disso, gosto de realizar atividades em grupo:</p>
+                    <ul>
+                        <li>Ações sociais</li>
+                        <li>Aula no ministério infantil</li>
+                        <li>Passar tempo com amigos e família</li>
+                        <li>Viajar</li>
+                    </ul>
+                </div>
+
+                <div class="fotos-hobbies">
+                    <img src="./image/social.jpg" alt="Ações sociais">
+                    <img src="./image/Infantil.jpg" alt="Ministério infantil">
+                    <img src="./image/Tempo_Amigos.jpg" alt="Amigos e família">
+                    <img src="./image/Viagem.jpg" alt="Viajar">
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO FORMAÇÃO -->
+        <section id="formacao">
             <h3>Formação</h3>
-            <p>
-               Odontologia - Completo
-               Análise e desenvolvimento de Sistemas - Cursando 
-               
-            </p>    
+            <ul>
+                <li>Odontologia</li>
+                <li>Ortodontia</li>
+                <li>Análise e Desenvolvimento de Sistemas - Cursando</li>
+            </ul>
         </section>
-        <section>
+
+        <!-- SEÇÃO CURSOS -->
+        <section id="cursos">
             <h3>Cursos</h3>
-            <p>
-               Administração de Banco de dados
-               Desenvolvedor Back End
-               Desenvolvedor Front End
-               Python
-               Power BI
-            </p>    
+            <ul>
+                <li>Administração de Banco de dados</li>
+                <li>Desenvolvedor Back End</li>
+                <li>Desenvolvedor Front End</li>
+                <li>Python</li>
+                <li>Power BI</li>
+            </ul>
         </section>
     </main>
     <footer>
